@@ -3,78 +3,203 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nike — New Visual Language</title>
+  <title>Emmaki — Creative Studio</title>
+  <meta
+    name="description"
+    content="Creative studio based in Madrid, working globally. Selected work in advertising, design and visual storytelling."
+  />
   <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)" />
   <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin />
   <link
     href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap)"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page-shell project-page">
+  <div class="page-shell">
     <header class="site-header">
-      <a class="brand" href="../index.html">emmaki</a>
+      <a class="brand" href="#top" aria-label="Ir al inicio">emmaki</a>
 
-      <nav class="site-nav">
-        <a href="../index.html#work">work</a>
-        <a href="../index.html#about">about</a>
-        <a href="../index.html#contact">contact</a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="#work">work</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
       </nav>
     </header>
 
-    <main class="project-layout">
-      <section class="project-hero">
-        <p class="project-category">Campaign</p>
-        <h1>Nike — New Visual Language</h1>
-        <p class="project-intro">
-          Motion-led campaign work blending product energy, portraiture and
-          a bold visual rhythm designed for digital-first placements.
+    <main id="top">
+      <section class="hero" id="about">
+        <p class="hero-eyebrow">¡Hola!</p>
+
+        <h1 class="hero-title">
+          We are <em>Iñaki</em> and <em>Emma</em>.<br />
+          You can call us <span>Emmaki</span>.
+        </h1>
+
+        <p class="hero-copy">
+          Creative studio based in Madrid, working globally for brands,
+          agencies and people with taste.
         </p>
       </section>
 
-      <section class="project-details">
-        <div>
-          <p class="detail-label">Client</p>
-          <p>Nike</p>
-        </div>
-        <div>
-          <p class="detail-label">Services</p>
-          <p>Creative Direction, Art Direction, Motion</p>
-        </div>
-        <div>
-          <p class="detail-label">Year</p>
-          <p>2024</p>
-        </div>
-      </section>
+      <section class="work-layout" id="work">
+        <aside class="work-sidebar">
+          <h2>Selected work:</h2>
 
-      <section class="project-gallery">
-        <figure class="project-image full">
-          <img src="../assets/img/project-01.jpg" alt="Nike campaign image 1" />
-        </figure>
+          <ul class="work-index">
+            <li><a href="#project-01">Ad campaign</a></li>
+            <li><a href="#project-02">Brand collaboration</a></li>
+            <li><a href="#project-03">Film stills</a></li>
+            <li><a href="#project-04">Night editorial</a></li>
+            <li><a href="#project-05">Beauty launch</a></li>
+            <li><a href="#project-06">Art direction</a></li>
+            <li><a href="#project-07">Photography</a></li>
+            <li><a href="#project-08">Print design</a></li>
+          </ul>
 
-        <div class="project-grid-2">
-          <figure class="project-image">
-            <img src="../assets/img/project-02.jpg" alt="Nike campaign image 2" />
-          </figure>
-          <figure class="project-image">
-            <img src="../assets/img/project-03.jpg" alt="Nike campaign image 3" />
-          </figure>
-        </div>
-
-        <section class="project-text-block">
-          <p>
-            The project explores speed, tension and physical presence through a
-            stripped-back image system that feels immediate and cinematic.
+          <p class="sidebar-note">
+            A selection of recent projects across moving image, campaigns,
+            design systems and visual identities.
           </p>
-        </section>
+        </aside>
 
-        <figure class="project-image full">
-          <img src="../assets/img/project-04.jpg" alt="Nike campaign image 4" />
-        </figure>
+        <div class="projects">
+          <article class="project-card" id="project-01">
+            <a href="projects/nike.html" class="project-media" aria-label="Ver proyecto Nike — New Visual Language">
+              <img src="assets/img/project-01.jpg" alt="Football campaign still" />
+            </a>
+            <div class="project-meta">
+              <p class="project-kicker">Campaign</p>
+              <h3>
+                <a href="projects/nike.html">Nike — New Visual Language</a>
+              </h3>
+              <p class="project-description">
+                Motion-led campaign work blending product energy and portraiture.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" id="project-02">
+            <a href="projects/lynx.html" class="project-media" aria-label="Ver proyecto Lynx Africa — Away Kit Edition">
+              <img src="assets/img/project-02.jpg" alt="Product collaboration artwork" />
+            </a>
+            <div class="project-meta">
+              <p class="project-kicker">Branding</p>
+              <h3>
+                <a href="projects/lynx.html">Lynx Africa — Away Kit Edition</a>
+              </h3>
+              <p class="project-description">
+                A graphic campaign built around a fictional product drop.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" id="project-03">
+            <a href="projects/internal-affairs.html" class="project-media" aria-label="Ver proyecto Internal Affairs">
+              <img src="assets/img/project-03.jpg" alt="Office cinematic frame" />
+            </a>
+            <div class="project-meta">
+              <p class="project-kicker">Film</p>
+              <h3>
+                <a href="projects/internal-affairs.html">Internal Affairs</a>
+              </h3>
+              <p class="project-description">
+                Cinematic stills and visual storytelling for a short-format piece.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" id="project-04">
+            <a href="projects/midnight-window.html" class="project-media" aria-label="Ver proyecto Midnight Window">
+              <img src="assets/img/project-04.jpg" alt="Night exterior editorial image" />
+            </a>
+            <div class="project-meta">
+              <p class="project-kicker">Editorial</p>
+              <h3>
+                <a href="projects/midnight-window.html">Midnight Window</a>
+              </h3>
+              <p class="project-description">
+                Atmospheric image sequence focused on architecture and light.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" id="project-05">
+            <a href="projects/gyno-canesflor.html" class="project-media" aria-label="Ver proyecto Gyno-Canesflor — Launch Visual">
+              <img src="assets/img/project-05.jpg" alt="Beauty product campaign visual" />
+            </a>
+            <div class="project-meta">
+              <p class="project-kicker">Beauty</p>
+              <h3>
+                <a href="projects/gyno-canesflor.html">Gyno-Canesflor — Launch Visual</a>
+              </h3>
+              <p class="project-description">
+                Packaging-forward composition with a bold red retail universe.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" id="project-06">
+            <a href="projects/case-file-94.html" class="project-media" aria-label="Ver proyecto Case File 94">
+              <img src="assets/img/project-06.jpg" alt="Art direction layout with printed elements" />
+            </a>
+            <div class="project-meta">
+              <p class="project-kicker">Art Direction</p>
+              <h3>
+                <a href="projects/case-file-94.html">Case File 94</a>
+              </h3>
+              <p class="project-description">
+                Mixed-media direction combining photography, print and collage.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" id="project-07">
+            <a href="projects/morning-routine.html" class="project-media" aria-label="Ver proyecto Morning Routine">
+              <img src="assets/img/project-07.jpg" alt="Documentary-style photo through a window" />
+            </a>
+            <div class="project-meta">
+              <p class="project-kicker">Photography</p>
+              <h3>
+                <a href="projects/morning-routine.html">Morning Routine</a>
+              </h3>
+              <p class="project-description">
+                Quiet observational photography with editorial framing.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" id="project-08">
+            <a href="projects/objects-and-shapes.html" class="project-media" aria-label="Ver proyecto Objects & Shapes">
+              <img src="assets/img/project-08.jpg" alt="Black and white print design booklet" />
+            </a>
+            <div class="project-meta">
+              <p class="project-kicker">Print</p>
+              <h3>
+                <a href="projects/objects-and-shapes.html">Objects &amp; Shapes</a>
+              </h3>
+              <p class="project-description">
+                Printed matter exploring contrast, rhythm and bold form.
+              </p>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="footer-left">
+        <h2>Get in touch!</h2>
+        <p>Especially if it’s for work.</p>
+      </div>
+
+      <div class="footer-right">
+        <a href="mailto:hola@emmaki.studio">hola@emmaki.studio</a>
+        <a href="[instagram.com](https://www.instagram.com/)" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="[linkedin.com](https://www.linkedin.com/)" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
