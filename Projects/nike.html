@@ -11,15 +11,15 @@
   <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)" />
   <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin />
   <link
-    href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap)"
+    href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap)"
     rel="stylesheet"
   />
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-  <div class="page-shell project-page-shell">
-    <header class="site-header">
-      <a class="brand" href="../index.html">emmaki</a>
+  <div class="page-shell page-shell--project">
+    <header class="site-header site-header--project">
+      <a class="brand" href="../index.html" aria-label="Volver al inicio">emmaki</a>
 
       <nav class="site-nav" aria-label="Navegación principal">
         <a href="../index.html#work">work</a>
@@ -28,35 +28,44 @@
       </nav>
     </header>
 
-    <main class="project-page">
-      <section class="project-hero-image">
-        <img src="../assets/img/project-01.jpg" alt="Whatever Happens hero image" />
+    <main class="project-editorial">
+      <section class="project-editorial-hero">
+        <figure class="editorial-hero-media">
+          <img src="../assets/img/project-01.jpg" alt="Whatever Happens hero image" />
+        </figure>
       </section>
 
-      <section class="project-intro-grid">
-        <div class="project-intro-left">
+      <section class="project-editorial-intro">
+        <div class="editorial-intro-title">
+          <p class="editorial-kicker">Campaign</p>
           <h1>Whatever happens</h1>
 
-          <ul class="project-facts">
+          <ul class="editorial-meta-list">
             <li>Rexona</li>
-            <li>Agency: Lola MullenLowe</li>
+            <li>Lola MullenLowe</li>
             <li>Production: Roma</li>
-            <li>Year: 2024</li>
+            <li>2024</li>
           </ul>
         </div>
 
-        <div class="project-intro-right">
+        <div class="editorial-intro-copy">
           <p>
-            Rexona's latest campaign explores resilience, commitment and the
-            emotional rituals surrounding football. The piece blends intimate
-            character moments with match-day tension, creating a cinematic story
-            that feels human, raw and celebratory.
+            A campaign about emotional endurance, ritual and loyalty under pressure.
+            Built around the grammar of football but told through intimate,
+            character-first observation, the film moves between anxiety, absurdity,
+            release and belonging.
+          </p>
+
+          <p>
+            The visual approach balances cinematic close-ups with a restrained sense
+            of composition, allowing faces, pauses and gestures to carry the weight
+            of the story while keeping the brand present without forcing it.
           </p>
         </div>
       </section>
 
-      <section class="project-video-block">
-        <div class="video-frame">
+      <section class="editorial-video">
+        <div class="editorial-video-frame">
           <iframe
             src="[player.vimeo.com](https://player.vimeo.com/video/76979871?h=8272103f6e)"
             title="Whatever Happens video"
@@ -67,95 +76,103 @@
         </div>
       </section>
 
-      <section class="project-gallery-stack">
-        <figure class="gallery-item wide">
-          <img src="../assets/img/project-03.jpg" alt="Still 1 from Whatever Happens" />
+      <section class="editorial-stills">
+        <figure class="editorial-still editorial-still--wide">
+          <img src="../assets/img/project-03.jpg" alt="Still from the campaign" />
         </figure>
 
-        <figure class="gallery-item wide">
-          <img src="../assets/img/project-04.jpg" alt="Still 2 from Whatever Happens" />
+        <figure class="editorial-still editorial-still--wide">
+          <img src="../assets/img/project-04.jpg" alt="Still from the campaign" />
         </figure>
 
-        <figure class="gallery-item wide">
-          <img src="../assets/img/project-05.jpg" alt="Still 3 from Whatever Happens" />
+        <figure class="editorial-still editorial-still--wide">
+          <img src="../assets/img/project-05.jpg" alt="Still from the campaign" />
         </figure>
 
-        <figure class="gallery-item wide">
-          <img src="../assets/img/project-07.jpg" alt="Still 4 from Whatever Happens" />
+        <figure class="editorial-still editorial-still--wide">
+          <img src="../assets/img/project-07.jpg" alt="Still from the campaign" />
         </figure>
       </section>
 
-      <section class="project-poster-grid">
-        <figure class="poster-item">
+      <section class="editorial-text-break">
+        <p>
+          The campaign extends into a multilingual poster system that preserves the
+          same emotional directness: simple staging, bold type, and the feeling that
+          the promise lands exactly at the moment of greatest tension.
+        </p>
+      </section>
+
+      <section class="editorial-posters">
+        <figure class="editorial-poster">
           <img src="../assets/img/poster-01.jpg" alt="Campaign poster 1" />
         </figure>
 
-        <figure class="poster-item">
+        <figure class="editorial-poster">
           <img src="../assets/img/poster-02.jpg" alt="Campaign poster 2" />
         </figure>
 
-        <figure class="poster-item">
+        <figure class="editorial-poster">
           <img src="../assets/img/poster-03.jpg" alt="Campaign poster 3" />
         </figure>
 
-        <figure class="poster-item">
+        <figure class="editorial-poster">
           <img src="../assets/img/poster-04.jpg" alt="Campaign poster 4" />
         </figure>
       </section>
 
-      <section class="related-work">
-        <div class="related-sidebar">
+      <section class="editorial-related">
+        <aside class="editorial-related-sidebar">
           <h2>Selected works:</h2>
 
           <ul class="work-index">
-            <li><a href="../index.html#project-01">Ad campaign</a></li>
-            <li><a href="../index.html#project-02">Brand collaboration</a></li>
-            <li><a href="../index.html#project-03">Film stills</a></li>
-            <li><a href="../index.html#project-04">Night editorial</a></li>
-            <li><a href="../index.html#project-05">Beauty launch</a></li>
-            <li><a href="../index.html#project-06">Art direction</a></li>
-            <li><a href="../index.html#project-07">Photography</a></li>
-            <li><a href="../index.html#project-08">Print design</a></li>
+            <li><a href="../projects/nike.html">Whatever Happens</a></li>
+            <li><a href="../projects/lynx.html">Away Kit Edition</a></li>
+            <li><a href="../projects/internal-affairs.html">Internal Affairs</a></li>
+            <li><a href="../projects/midnight-window.html">Midnight Window</a></li>
+            <li><a href="../projects/gyno-canesflor.html">Launch Visual</a></li>
+            <li><a href="../projects/case-file-94.html">Case File 94</a></li>
+            <li><a href="../projects/morning-routine.html">Morning Routine</a></li>
+            <li><a href="../projects/objects-and-shapes.html">Objects &amp; Shapes</a></li>
           </ul>
-        </div>
+        </aside>
 
-        <div class="related-grid">
-          <a href="../projects/nike.html" class="related-card">
-            <img src="../assets/img/project-01.jpg" alt="Nike project" />
+        <div class="editorial-related-grid">
+          <a href="../projects/nike.html" class="editorial-related-card is-current">
+            <img src="../assets/img/project-01.jpg" alt="Whatever Happens" />
           </a>
 
-          <a href="../projects/lynx.html" class="related-card">
-            <img src="../assets/img/project-02.jpg" alt="Lynx project" />
+          <a href="../projects/lynx.html" class="editorial-related-card">
+            <img src="../assets/img/project-02.jpg" alt="Away Kit Edition" />
           </a>
 
-          <a href="../projects/internal-affairs.html" class="related-card">
-            <img src="../assets/img/project-03.jpg" alt="Internal Affairs project" />
+          <a href="../projects/internal-affairs.html" class="editorial-related-card">
+            <img src="../assets/img/project-03.jpg" alt="Internal Affairs" />
           </a>
 
-          <a href="../projects/midnight-window.html" class="related-card">
-            <img src="../assets/img/project-04.jpg" alt="Midnight Window project" />
+          <a href="../projects/midnight-window.html" class="editorial-related-card">
+            <img src="../assets/img/project-04.jpg" alt="Midnight Window" />
           </a>
 
-          <a href="../projects/gyno-canesflor.html" class="related-card">
-            <img src="../assets/img/project-05.jpg" alt="Gyno-Canesflor project" />
+          <a href="../projects/gyno-canesflor.html" class="editorial-related-card">
+            <img src="../assets/img/project-05.jpg" alt="Launch Visual" />
           </a>
 
-          <a href="../projects/case-file-94.html" class="related-card">
-            <img src="../assets/img/project-06.jpg" alt="Case File 94 project" />
+          <a href="../projects/case-file-94.html" class="editorial-related-card">
+            <img src="../assets/img/project-06.jpg" alt="Case File 94" />
           </a>
 
-          <a href="../projects/morning-routine.html" class="related-card">
-            <img src="../assets/img/project-07.jpg" alt="Morning Routine project" />
+          <a href="../projects/morning-routine.html" class="editorial-related-card">
+            <img src="../assets/img/project-07.jpg" alt="Morning Routine" />
           </a>
 
-          <a href="../projects/objects-and-shapes.html" class="related-card">
-            <img src="../assets/img/project-08.jpg" alt="Objects and Shapes project" />
+          <a href="../projects/objects-and-shapes.html" class="editorial-related-card">
+            <img src="../assets/img/project-08.jpg" alt="Objects and Shapes" />
           </a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer" id="contact">
+    <footer class="site-footer site-footer--editorial" id="contact">
       <div class="footer-left">
         <h2>Get in touch!</h2>
         <p>Especially if it’s for work, you know :)</p>
