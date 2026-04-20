@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Emmaki</title>
+
+  <meta
+    name="description"
+    content="¡Hola! Somos Iñaki y Emma, el dúo creativo detrás de Emmaki. Trabajamos desde Madrid, para marcas y personas con ambición e ideas valientes."
+  />
+
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)" />
+  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin />
+  <link
+    href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap)"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-shell page-about">
+
+    <header class="site-header">
+      <a class="brand" href="index.html">emmaki</a>
+
+      <nav class="site-nav">
+        <a href="index.html#work">work</a>
+        <a href="about.html" class="is-current">about us</a>
+      </nav>
+    </header>
+
+    <main class="about-editorial">
+      <section class="about-intro">
+        <figure class="about-photo">
+          <img src="assets/img/about-us.jpg" alt="Emma and Iñaki — Emmaki" />
+          <figcaption>
+            Not the kind of photo you expect, but the kind everyone ends up with.
+          </figcaption>
+        </figure>
+
+        <div class="about-text">
+          <h1>
+            ¡Hola! We are <em>Iñaki</em> and <em>Emma</em>.
+          </h1>
+
+          <p class="lede">
+            Or Iñaki and Emma, depending on who types faster.
+            We’re a creative duo from Spain who fell into advertising by chance — then fell harder for the world of ideas.
+          </p>
+
+          <p>
+            Since then, we’ve worked with some of the best people and brands around: 
+            <strong>De’Longhi</strong>, <strong>Rexona</strong>, <strong>Axe</strong>, <strong>OMO</strong>, <strong>Tropicana</strong>, <strong>Burger King</strong> and <strong>Bayer</strong>.
+            Always learning, never bored, usually caffeinated.
+          </p>
+
+          <p>
+            Beyond all that, we’re quite nice (or so we’ve heard). 
+            One of us has an unhealthy relationship with Wordplay™ and the other can’t stop talking. 
+            Together, we think it makes us pretty good company — for briefings and for beers.
+          </p>
+        </div>
+      </section>
+
+      <section class="about-grid">
+        <div class="about-column">
+          <h2>Awards</h2>
+          <ul>
+            <li><strong>Young Lions Silver</strong> — April 2025</li>
+            <li><strong>D&AD Student Bronze</strong> — July 2023</li>
+            <li><strong>Future Lions Shortlist</strong> — May 2023</li>
+          </ul>
+        </div>
+
+        <div class="about-column">
+          <h2>Experience</h2>
+          <ul>
+            <li><strong>LOLA MullenLowe</strong><br /> Junior Creatives — Jan 2024 – Present</li>
+            <li><strong>David Madrid</strong><br /> Trainee Creatives — Jun 2023 – Dec 2023</li>
+            <li><strong>David Madrid × Emma</strong><br /> Trainee Social Creative — May 2022 – Nov 2022</li>
+            <li><strong>LOLA MullenLowe × Emma</strong><br /> Trainee Social Creative — Oct 2021 – May 2022</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-contact">
+        <h2>Get in touch!</h2>
+        <p class="lede">Especially if it’s for work— you know.</p>
+
+        <div class="about-links">
+          <a href="mailto:akiandemma@gmail.com" class="about-email">akiandemma@gmail.com</a>
+
+          <div class="about-social">
+            <a href="[linkedin.com](https://www.linkedin.com/in/emmacarreno)" target="_blank" rel="noreferrer">Emma Carreno LinkedIn</a>
+            <a href="[linkedin.com](https://www.linkedin.com/in/inakicandel)" target="_blank" rel="noreferrer">Iñaki Candel LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer--editorial">
+      <div class="footer-left">
+        <h2>Still scrolling?</h2>
+        <p>Maybe it’s time for a vermut instead.</p>
+      </div>
+
+      <div class="footer-right">
+        <a href="mailto:hola@emmaki.studio">hola@emmaki.studio</a>
+        <a href="[instagram.com](https://www.instagram.com/)" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="[linkedin.com](https://www.linkedin.com/)" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
