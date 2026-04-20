@@ -645,10 +645,13 @@ a {
 
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 60px;
-  margin-bottom: 90px;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 40px 0;
 }
+
 
 .about-grid h2 {
   font-family: "Cormorant Garamond", serif;
