@@ -192,7 +192,14 @@ a {
 
 .projects {
   display: grid;
-  gap: 18px;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 40px 28px;
+}
+
+@media (max-width: 900px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-card {
