@@ -192,8 +192,9 @@ a {
 
 .projects {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 40px 28px;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: start;
 }
 
 @media (max-width: 900px) {
