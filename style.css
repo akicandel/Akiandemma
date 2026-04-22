@@ -41,7 +41,10 @@ a {
 }
 
 .page-shell {
-  width: min(calc(100% - 12px), var(--max-width));
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0;
 }
 
 .page-shell--project {
