@@ -4,7 +4,7 @@
   --muted: #6f6a63;
   --soft: #8a847c;
   --line: rgba(17, 17, 17, 0.1);
-  --max-width: (100% - 50px);
+--max-width: 100%;
   --radius: 4px;
 }
 
