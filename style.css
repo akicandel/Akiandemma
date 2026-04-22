@@ -41,8 +41,7 @@ a {
 }
 
 .page-shell {
-  width: min(calc(100% - 16px), var(--max-width));
-  margin: 0 auto;
+  width: min(calc(100% - 12px), var(--max-width));
 }
 
 .page-shell--project {
@@ -323,7 +322,7 @@ a {
 
 .project-editorial-intro {
   display: grid;
-  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  grid-template-columns: minmax(220px, 320px) minmax(0, 2fr);
   gap: 34px;
   align-items: start;
   margin-bottom: 42px;
@@ -591,7 +590,7 @@ a {
 /* ABOUT PAGE — editorial layout */
 
 .page-about {
-  width: min(calc(100% - 48px), 1100px);
+  width: min(calc(100% - 12px), 1100px);
 }
 
 .about-editorial {
