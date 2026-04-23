@@ -1,9 +1,7 @@
 const year = new Date().getFullYear();
 document.title = `Emmaki — Creative Studio`;
 
-const thumbs = document.querySelectorAll('.project-thumb');
-
-thumbs.forEach(thumb => {
+document.querySelectorAll('.project-thumb').forEach(thumb => {
   const video = thumb.querySelector('video');
 
   thumb.addEventListener('mouseenter', () => {
