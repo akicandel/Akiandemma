@@ -751,15 +751,12 @@ a {
 /* --- Hover GIF thumbnails --- */
 .project-thumb {
   position: relative;
-  display: block;
   overflow: hidden;
-  border-radius: 4px;
 }
 
-.project-thumb img {
-  width: 100%;
+.thumb-static {
   display: block;
-  object-fit: cover;
+  width: 100%;
 }
 
 .thumb-gif {
@@ -767,10 +764,9 @@ a {
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* importante para video */
+  object-fit: cover;
   opacity: 0;
   transition: opacity 0.25s ease;
-  pointer-events: none;
 }
 
 .project-thumb:hover .thumb-gif {
