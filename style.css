@@ -747,3 +747,29 @@ a {
     width: min(calc(100% - 28px), 1100px);
   }
 }
+
+/* --- Hover GIF thumbnails --- */
+.project-thumb {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.project-thumb img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.thumb-gif {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.project-thumb:hover .thumb-gif {
+  opacity: 1;
+}
