@@ -1,6 +1,6 @@
 const year = new Date().getFullYear();
 document.title = `Emmaki — Creative Studio`;
-<script>
+
 const thumbs = document.querySelectorAll('.project-thumb');
 
 thumbs.forEach(thumb => {
@@ -15,4 +15,4 @@ thumbs.forEach(thumb => {
     video.currentTime = 0;
   });
 });
-</script>
+
