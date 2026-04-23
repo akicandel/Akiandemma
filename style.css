@@ -540,11 +540,11 @@ a {
 
 @media (max-width: 640px) {
   .page-shell {
-    width: min(calc(100% - 24px), var(--max-width));
+    width: min(calc(100% - 48px), var(--max-width));
   }
 
   .page-shell--project {
-    width: min(calc(100% - 24px), 1120px);
+    width: min(calc(100% - 48px), 1120px);
   }
 
   .site-header {
