@@ -41,10 +41,11 @@ a {
 }
 
 .page-shell {
+  max-width: 1400px;
   width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin: 0;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .page-shell--project {
