@@ -756,7 +756,6 @@ a {
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 4px;
-  background: #000;
 }
 .project-thumb img,
 .project-thumb video {
@@ -767,19 +766,15 @@ a {
   object-fit: cover;
   display: block;
 }
-/* Imagen base */
 .thumb-static {
   z-index: 1;
 }
-/* Vídeo en la capa superior */
 .thumb-gif {
   z-index: 2;
   opacity: 0;
   transition: opacity 0.25s ease;
   pointer-events: none;
 }
-/* Hover: activar */
 .project-thumb:hover .thumb-gif {
   opacity: 1;
 }
-
