@@ -748,7 +748,8 @@ a {
   }
 }
 
-/* --- PORTADAS: imagen estática + vídeo en hover --- */
+/* --- PORTADAS HOVER: IMG + VIDEO --- */
+
 .project-thumb {
   position: relative;
   display: block;
@@ -756,9 +757,10 @@ a {
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 4px;
-  background: #ddd; /* fallback */
+  background: #000;
 }
-/* Ambas capas ocupan toda la portada */
+
+/* capas */
 .project-thumb img,
 .project-thumb video {
   position: absolute;
@@ -767,19 +769,24 @@ a {
   height: 100%;
   object-fit: cover;
   display: block;
+  z-index: 1;
 }
-/* Imagen por defecto */
+
+/* imagen debajo */
 .thumb-static {
   z-index: 1;
 }
-/* Vídeo encima pero invisible */
+
+/* video encima */
 .thumb-gif {
   z-index: 2;
   opacity: 0;
   transition: opacity 0.25s ease;
   pointer-events: none;
 }
-/* Hover → mostrar vídeo */
+
+/* hover: mostrar video */
 .project-thumb:hover .thumb-gif {
   opacity: 1;
 }
+
