@@ -790,3 +790,9 @@ a {
   opacity: 1;
 }
 
+.thumb-gif {
+  background: blue !important;
+  opacity: 1 !important;
+}
+
+
