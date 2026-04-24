@@ -748,8 +748,7 @@ a {
   }
 }
 
-/* --- PORTADAS HOVER: IMG + VIDEO --- */
-
+/* --- HOVER COVERS (IMAGE → VIDEO) --- */
 .project-thumb {
   position: relative;
   display: block;
@@ -759,8 +758,6 @@ a {
   border-radius: 4px;
   background: #000;
 }
-
-/* capas */
 .project-thumb img,
 .project-thumb video {
   position: absolute;
@@ -769,30 +766,20 @@ a {
   height: 100%;
   object-fit: cover;
   display: block;
-  z-index: 1;
 }
-
-/* imagen debajo */
+/* Imagen base */
 .thumb-static {
   z-index: 1;
 }
-
-/* video encima */
+/* Vídeo en la capa superior */
 .thumb-gif {
   z-index: 2;
   opacity: 0;
   transition: opacity 0.25s ease;
   pointer-events: none;
 }
-
-/* hover: mostrar video */
+/* Hover: activar */
 .project-thumb:hover .thumb-gif {
   opacity: 1;
 }
-
-.thumb-gif {
-  background: blue !important;
-  opacity: 1 !important;
-}
-
 
