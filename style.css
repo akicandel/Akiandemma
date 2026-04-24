@@ -762,16 +762,10 @@ a {
   z-index: 1;
 }
 .thumb-gif {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  z-index: 2;
-  transition: opacity 0.25s ease;
-  pointer-events: none;
+  opacity: 1 !important;
+  background: red !important;
 }
+
 .project-thumb:hover .thumb-gif {
   opacity: 1 !important;
 }
