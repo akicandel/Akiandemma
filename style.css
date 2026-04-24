@@ -754,6 +754,9 @@ a {
   display: block;
   overflow: hidden;
 }
+.project-thumb video {
+  aspect-ratio: 16 / 9;
+}
 .thumb-static {
   position: relative;
   z-index: 1;
